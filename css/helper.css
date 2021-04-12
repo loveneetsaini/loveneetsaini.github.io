@@ -526,13 +526,13 @@
 }
 
 
-#about , #education, certifications{
+#about , #education, #certifications{
   
   background: #fff;
   position: relative;
 }
 
-#workexp, #degree, cert {
+#workexp, #degree, #cert {
   position: relative;
   z-index: 2;
 }
