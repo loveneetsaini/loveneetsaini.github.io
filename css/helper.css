@@ -526,10 +526,15 @@
 }
 
 
-#about , #education, #certifications{
-  
+#about , #education{
   background: #fff;
   position: relative;
+}
+
+ #certifications{
+  background: #222222;
+  position: relative;
+  color: #fff
 }
 
 #workexp, #degree, #cert {
@@ -575,10 +580,10 @@
   text-decoration: inherit;
   position: absolute;
   font-size: 400px;
-  color: rgba(40, 96, 144, 0.11);
+  color: rgba(255, 255, 255, 0.1);
   top: 50%;
   left: 50%;
-  margin: -227px 0 0 -258px;
+  margin: -227px 0 0 -175px;
   z-index: 1;
 }
 
