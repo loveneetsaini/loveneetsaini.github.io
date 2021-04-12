@@ -526,13 +526,13 @@
 }
 
 
-#about , #education{
+#about , #education, certifications{
   
   background: #fff;
   position: relative;
 }
 
-#workexp, #degree {
+#workexp, #degree, cert {
   position: relative;
   z-index: 2;
 }
@@ -554,6 +554,21 @@
 
 #education:after {
   content: "\f19d"; 
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: absolute;
+  font-size: 400px;
+  color: rgba(40, 96, 144, 0.11);
+  top: 50%;
+  left: 50%;
+  margin: -227px 0 0 -258px;
+  z-index: 1;
+}
+
+#certifications:after {
+  content: "\f0a3"; 
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
